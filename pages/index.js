@@ -4,10 +4,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Facebook</title>
       </Head>
+
+      <h1>Lets build Facebook</h1>
     </div>
   )
 }
